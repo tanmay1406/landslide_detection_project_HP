@@ -1,4 +1,6 @@
 data/raw/
+!data/processed/       # allow processed folder
+!data/processed/*.csv
 data/processed/
 venv/
 .ipynb_checkpoints/
