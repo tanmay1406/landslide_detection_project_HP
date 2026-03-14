@@ -1,0 +1,4 @@
+We are currently developing a model which tries to predict how a paticular region in Himachal Pradesh, is susceptable to natural disaster of landslide.
+
+We would be using some already existing data about how a particular spot(latitude,longitude,district,tehssil) and how much vulnerable it is to having a landslide , we have about 40 million data points , across 12 different districts.
+
