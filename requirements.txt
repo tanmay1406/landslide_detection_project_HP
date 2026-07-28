@@ -1,0 +1,36 @@
+# Python dependencies for the full pipeline (notebooks 01-08).
+# Install with: pip install -r requirements.txt
+#
+# Note: `requirement.txt` (no "s") already existed in this repo as a plain-text project
+# description, not a dependency list -- left untouched. This file is the actual
+# pip-installable one, covering everything used from data extraction through the final
+# model comparison.
+
+# --- Core data handling ---
+numpy
+pandas
+scipy
+
+# --- Geospatial (01_data_extraction.ipynb) ---
+rasterio
+geopandas
+shapely
+richdem
+requests
+
+# --- Plotting ---
+matplotlib
+seaborn
+
+# --- Classical ML (02, 05, 06) ---
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+# --- Deep learning (03_mlp_model.ipynb, 07_cnn_image_model.ipynb) ---
+tensorflow
+
+# --- Notebook execution ---
+jupyter
+notebook

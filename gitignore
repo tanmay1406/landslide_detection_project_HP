@@ -1,0 +1,9 @@
+data/raw/
+!data/processed/      
+!data/processed/*.csv
+data/processed/patches/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+outputs/models/
+catboost_info/
